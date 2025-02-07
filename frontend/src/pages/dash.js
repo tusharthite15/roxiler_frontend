@@ -4,10 +4,10 @@ import TransactionsStatistics from "../components/TransactionsStatistics";
 import TransactionsBarChart from "../components/TransactionsBarChart";
 import TransactionsOverview from "../components/TransactionsOverview";
 
-
 const Dashboard = () => {
-  const [month, setMonth] = useState(new Date().getMonth() + 1); // Default to current month
-  const [year, setYear] = useState(new Date().getFullYear()); // Default to current year
+  // Set initial state to November 2021
+  const [month, setMonth] = useState(11); // November
+  const [year, setYear] = useState(2021); // 2021
 
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
