@@ -3,6 +3,8 @@
 ## 📌 Overview
 This project implements a **MERN Stack** application that fetches product transactions from a third-party API, initializes a database, and provides various API endpoints for transactions listing, statistics, and visualizations (bar chart, pie chart). The frontend consumes these APIs to display transactions, statistics, and charts in a dashboard.
 
+
+
 ## 🏗️ Tech Stack
 - **Frontend**: React.js (with Chart.js for visualizations)
 - **Backend**: Node.js, Express.js
@@ -138,6 +140,11 @@ npm run build
 - Deploy to **Vercel** or **Netlify**.
 
 ---
+
+📽️ [Watch the demo](https://drive.google.com/file/d/17ryOsIJu7TSid4o70J6WO9Ee4xtOBtax/view?usp=sharing)
+
+
+
 ## ✅ Next Steps
 - ✅ Complete API Testing using Postman
 - ✅ Improve UI with Tailwind/Material-UI
